@@ -841,15 +841,14 @@ margin-bottom: 8px;
 }
 
 .modal-field-check {
-    display: flex;
-    align-items: center;
+    
     margin-bottom: 24px;
 
 }
 
 
 .modal-check span{
-flex-shrink: 0;
+
 }
 .check-text {
     font-weight: 400;
@@ -858,10 +857,18 @@ flex-shrink: 0;
     letter-spacing: 0.04em;
     color: #8e8f99;
     width: 100%;  
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+}
+.check-text span {
+
 }
 
 .modal-check:focus + .check-text span {
     border-color: #4D5AE5;
+    
 }
 
 .check-text-pp {
@@ -887,14 +894,16 @@ flex-shrink: 0;
     height: 16px;
     border-radius: 2px;
     margin-right: 8px;
+    flex-shrink: 0;
 }
 
 
 
-.modal-check:checked + .check-text span {
+.modal-check:checked + .check-text .icon-check-privacy {
     background-color: #404bbf;
     border: none;
     fill: #f4f4fd;
+    
 }
 
 .icon-check {
@@ -1063,6 +1072,9 @@ display: flex;
 }
 .check-text {
     
+
+}
+.check-text-span {
 
 }
 
