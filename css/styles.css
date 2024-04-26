@@ -91,6 +91,7 @@ img {
     padding-top: 16px;
     padding-bottom: 16px;
 }
+
 .logo-studio {
     font-family: "Raleway",
     sans-serif;
@@ -1107,7 +1108,7 @@ padding: 120px 0;
 .header-container{
     justify-content: center;
 }
-.logo {
+.header .logo {
     margin-right: 76px;
 }
 
@@ -1246,6 +1247,8 @@ transform: translateY(100%);
     display: flex;
     flex-wrap: nowrap;
     align-items: baseline;
+    padding: 0 15px;
+    gap: 0;
 }
 .footer {
     padding: 100px 0;
@@ -1257,6 +1260,9 @@ transform: translateY(100%);
 }
 .footer-logo {
     
+}
+.social{
+    margin-right: auto;
 }
 .footer-subscribe-wrap {
     
